@@ -39,6 +39,7 @@ int main() {
    int i;//numer id ksiazki - jezeli 0, otwiera ksiazke numer 1 itd.
     cout << "What is the number id of your book?" <<endl;
     
+    
     cin>>i;
     
     cout << "Book title: " << Books[i].title <<endl;
